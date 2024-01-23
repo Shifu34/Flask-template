@@ -5,7 +5,7 @@ import getStats
 
 app=Flask(__name__)
 
-@app.route('/')
+@app.route('/') # home page
 def hello_world():
     return render_template('index.html')
 
